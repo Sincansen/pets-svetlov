@@ -1,0 +1,237 @@
+font-family: 'Roboto', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+
+
+*{
+
+}
+
+/*Тело сайта*/
+body{
+
+}
+
+/*Заголовок 1 уровня*/
+h1{
+font-family: 'Fira Sans', medium;
+font-size: 48px;
+text-align: center;
+}
+
+/*Заголовок 2 уровня*/
+h2{
+font-family: 'Fira Sans', medium;
+font-size: 36px;
+letter-spacing: 50; /*50 чего?*/
+text-align: center;
+line-height: 40px;
+}
+
+/*Заголовок 3 уровня*/
+h3{
+font-family: 'Fira Sans', medium;
+font-size: 24px;
+letter-spacing: 50; /*50 чего?*/
+line-height: 40px;
+}
+
+/*Обычный текст*/
+p{
+font-family: 'Roboto', Regular;
+font-size: 16px;
+line-height: 30px;
+}
+
+/*Ссылки*/
+a{
+font-family: 'Fira Sans', medium;
+font-size: 16px;
+letter-spacing: 50;
+line-height: 30px;
+}
+
+/*Wrapper*/
+.wrapper{
+width: 1024px;
+border: 1px solid black;
+background-color: #ede9e0;
+margin: 0 auto;
+}
+
+/*Контейнер*/
+.container{
+width: 940px;
+border: 1px solid red;
+
+}
+/
+/*Секции*/
+.section{
+
+}
+
+.article{
+
+}
+
+
+
+
+.logotype{
+
+}
+.navigation{
+
+}
+.navigation_item{
+
+}
+.phone{
+
+}
+
+
+.promo_text{
+
+}
+.promo_quote{
+
+}
+.promo_quote_text{
+
+}
+
+
+.about_farm{
+
+}
+.about_farm_info{
+
+}
+.about_farm_info_text{
+
+}
+.about_farm_table{
+
+}
+.about_farm_image{
+
+}
+.about_farm_img{
+
+}
+.about_farm_preferences{
+
+}
+.about_farm_pref_text{
+
+}
+.about_farm_link{
+
+}
+
+
+.breeds{
+
+}
+.breeds_list{
+
+}
+.breeds_list_info{
+
+}
+.breeds_item-header{
+
+}
+.breeds_item-text{
+font-family: : 'Roboto', Regular;
+}
+.breeds_link{
+
+}
+
+.reviews{
+
+}
+.reviews_table{
+
+}
+.reviews_text{
+
+}
+.name{
+
+}
+.reviews_text_big{
+
+}
+.reviews_img{
+
+}
+.reviews_text-link{
+font-family: 'Roboto', Italic;
+font-size: 16px;
+}
+.reviews_link{
+
+}
+
+
+.about_animals{
+/*background-image: url(/image/background_pattern.png);*/
+}
+.table_left{
+
+}
+.about_text{
+
+}
+.social{
+
+}
+.social_link{
+
+}
+.table_right{
+
+}
+
+
+.contacts{
+
+}
+.contacts_information{
+
+}
+.contacts_worktime{
+
+}
+.contacts_email{
+
+}
+.contacts_phone{
+
+}
+.contacts_info_address{
+
+}
+.contact_info{
+
+}
+.contacts_info_item{
+
+}
+
+
+.footer-nav{
+
+}
+.footer-nav_item{
+
+}
+.footer-social{
+
+}
+.footer-social_link{
+
+}
