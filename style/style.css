@@ -11,6 +11,9 @@ body{
 
 }
 
+div{
+border: 1px solid black;
+}
 /*Заголовок 1 уровня*/
 h1{
 font-family: 'Fira Sans', medium;
@@ -65,8 +68,14 @@ margin: 0 auto;
 .container{
 width: 940px;
 border: 1px solid red;
+vertical-align: top;
+box-sizing: border-box;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
 display: flex;
-
 }
 /
 /*Секции*/
@@ -75,10 +84,11 @@ display: flex;
 }
 
 .article{
-border: 1px solid black;
 }
 
+.header{
 
+}
 
 
 .logotype{
@@ -109,81 +119,81 @@ text-align: center;
 
 }
 .promo_text{
-border: 1px solid #8B0000;
+flex-direction: column; /*Основная проблема - как выровнять*/
 }
 .promo_quote{
-border: 1px solid #8B0000;
+flex-direction: column;
 }
 .promo_quote_text{
-border: 1px solid #8B0000;
+flex-direction: column;
 }
 
 
 .about_farm{
-border: 1px solid #8B0000;
+flex-direction: column;
 }
 .about_farm_info{
-border: 1px solid #8B0000;
+
 }
 .about_farm_info_text{
-border: 1px solid #8B0000;
+
 }
 .about_farm_table{
-border: 1px solid #8B0000;
+
 }
 .about_farm_image{
-border: 1px solid #8B0000;
+
 }
 .about_farm_img{
 border-radius: 10px;
 }
 .about_farm_preferences{
-border: 1px solid #8B0000;
+
 }
 .about_farm_pref_text{
-border: 1px solid #8B0000;
+
 }
 .about_farm_link{
-border: 1px solid #8B0000;
+
 }
 
 
 .breeds{
-border: 1px solid #8B0000;
+
 }
 .breeds_list{
-border: 1px solid #8B0000;
+
 }
 .breeds_list_info{
-border: 1px solid #8B0000;
+
 }
 .breeds_item-header{
-border: 1px solid #8B0000;
+
 }
 .breeds_item-text{
 font-family: : 'Roboto', Regular;
 }
 .breeds_link{
-border: 1px solid #8B0000;
+
 }
 
 .reviews{
-border: 1px solid #8B0000;
+
 }
 .reviews_table{
-border: 1px solid #8B0000;
+
 }
 .reviews_text{
-border: 1px solid #8B0000;
+
 }
 .name{
-border: 1px solid #8B0000;
+
 }
 .reviews_text_big{
-border: 1px solid #8B0000;
+
 }
 .reviews_img{
-border: 1px solid #8B0000;
+
 }
 .reviews_text-link{
 font-family: 'Roboto', Italic;
@@ -195,68 +205,68 @@ font-size: 16px;
 
 
 .about_animals{
-border: 1px solid #8B0000;
+
 background-image: url(/image/background-pattern.png);
 }
 .table_left{
-border: 1px solid #8B0000;
+
 width: 50%;
 }
 .about_text{
-border: 1px solid #8B0000;
+
 }
 
 .article_background{
 background-color: yellow;
-border: 1px solid #8B0000;
+
 }
 .social{
-border: 1px solid #8B0000;
+
 }
 .social_link{
 
 }
 .table_right{
-border: 1px solid #8B0000;
+
 width: 50%;
 }
 
 
 .contacts{
-border: 1px solid #8B0000;
+
 }
 .contacts_information{
-border: 1px solid #8B0000;
+
 }
 .contacts_worktime{
-border: 1px solid #8B0000;
+
 }
 .contacts_email{
-border: 1px solid #8B0000;
+
 }
 .contacts_phone{
-border: 1px solid #8B0000;
+
 }
 .contacts_info_address{
-border: 1px solid #8B0000;
+
 }
 .contact_info{
-border: 1px solid #8B0000;
+
 }
 .contacts_info_item{
-border: 1px solid #8B0000;
+
 }
 
 
 .footer-nav{
-border: 1px solid #8B0000;
+
 }
 .footer-nav_item{
-border: 1px solid #8B0000;
+
 }
 .footer-social{
-border: 1px solid #8B0000;
+
 }
 .footer-social_link{
-border: 1px solid #8B0000;
+
 }
