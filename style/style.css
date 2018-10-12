@@ -107,42 +107,55 @@ text-align: center;
 .promo{
 text-align: center;
 }
-.promo_text{
+
+.promo_text_general{
+  text-align: left;
+  width: 40%;
+  margin-left: 40%;
+  margin-top: 10%;
 }
 .promo_quote{
-border: 1px solid black;
-}
-.promo_quote_text{
-
+  text-align: left;
+  width: 40%;
+  margin-left: 40%;
 }
 
 
 .about_farm{
-flex-direction: column;
+margin-top: 20%;
 }
-.about_farm_info{
-
+.about_farm_header{
+text-align: center;
 }
 .about_farm_info_text{
-
+text-align: left;
+margin: 0 35% 0 30%;
 }
 .about_farm_table{
-
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
 }
 .about_farm_image{
-
+flex-direction: row;
+width: 50%;
 }
 .about_farm_img{
 border-radius: 10px;
 }
 .about_farm_preferences{
-
+margin-left: 10%;
+flex-direction: row;
+width: 50%;
 }
 .about_farm_pref_text{
 
 }
 .about_farm_link{
-
+margin-left: 8%;
+margin-top: 15%;
 }
 
 
@@ -256,6 +269,7 @@ flex: 0 0 auto;
 .contacts_name_header{
 }
 .contacts_information{
+  display: flex;
 }
 
 .contofname{
@@ -263,6 +277,7 @@ text-align: left;
 padding: 0 4%;
 }
 .contacts_header{
+justify-content:  center;
 border: 1px solid blue;
 width: 100%;
 }
