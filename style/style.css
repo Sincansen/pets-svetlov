@@ -1,18 +1,14 @@
-font-family: 'Roboto', sans-serif;
-font-family: 'Fira Sans', sans-serif;
-
-
 *{
-
+box-sizing: border-box;
 }
 
 /*Тело сайта*/
 body{
-
+background-color: #ede9e0;
 }
 
 div{
-border: 1px solid black;
+
 }
 /*Заголовок 1 уровня*/
 h1{
@@ -26,7 +22,6 @@ h2{
 font-family: 'Fira Sans', medium;
 font-size: 36px;
 letter-spacing: 50; /*50 чего?*/
-text-align: center;
 line-height: 40px;
 }
 
@@ -46,10 +41,10 @@ line-height: 30px;
 }
 
 /*Ссылки*/
+
 a{
 font-family: 'Fira Sans', medium;
 font-size: 16px;
-color: #510fad;
 letter-spacing: 50;
 line-height: 30px;
 text-decoration: none;
@@ -57,39 +52,27 @@ text-decoration: none;
 
 /*Wrapper*/
 .wrapper{
-background-image: url(/images/dog.png);
 width: 1024px;
 border: 1px solid black;
-background-color: #ede9e0;
+
 margin: 0 auto;
 }
 
 /*Контейнер*/
 .container{
-width: 940px;
-border: 1px solid red;
-vertical-align: top;
-box-sizing: border-box;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-margin: auto;
 display: flex;
+width: 940px;
+margin: 0 auto;
+padding-left: 40px;
+padding-right: 40px;
+border: 1.5px solid yellow;
+box-sizing: border-box;
 }
 /
 /*Секции*/
 .section{
 
 }
-
-.article{
-}
-
-.header{
-
-}
-
 
 .logotype{
 text-align: center;
@@ -119,13 +102,16 @@ text-align: center;
 
 }
 .promo_text{
-flex-direction: column; /*Основная проблема - как выровнять*/
+width: 100%;
+border: 1px solid blue;
 }
 .promo_quote{
-flex-direction: column;
+width: 100%;
+border: 1px solid black;
+display: block;
 }
 .promo_quote_text{
-flex-direction: column;
+
 }
 
 
@@ -165,7 +151,16 @@ border-radius: 10px;
 
 }
 .breeds_list_info{
+width: 50%;
+height: auto;
+border: 1px solid black;
+padding: 1%;
 
+}
+.breeds_list_image{
+border-radius:50%;
+padding: 0% 4%;
+float: left;
 }
 .breeds_item-header{
 
@@ -174,7 +169,7 @@ border-radius: 10px;
 font-family: : 'Roboto', Regular;
 }
 .breeds_link{
-
+text-align: center;
 }
 
 .reviews{
@@ -206,50 +201,65 @@ font-size: 16px;
 
 .about_animals{
 
-background-image: url(/image/background-pattern.png);
-}
-.table_left{
 
-width: 50%;
+}
+.ab_anim_table{
+  width: 50%;
+  display: flex;
 }
 .about_text{
-
+padding: 5%;
 }
 
+.table_article{
+  width: 55%;
+  flex-direction: row;
+  margin: 2%;
+}
 .article_background{
-background-color: yellow;
-
+background-color: white;
+border-radius: 10px;
+}
+.article_img{
+vertical-align: top;
+border-radius: 10px 10px 0 0;
+}
+.article_text{
+  padding-left: 5%;
+}
+.ab_anim_link{
+  padding-left: 5%;
 }
 .social{
-
+padding-left: 5%;
+flex: 0 0 auto;
 }
 .social_link{
 
 }
-.table_right{
 
-width: 50%;
-}
 
 
 .contacts{
+text-align: left;
 
+}
+.contacts_name_header{
+  text-align: left;
+  display: inline-block;
 }
 .contacts_information{
-
+width: 100%;
 }
-.contacts_worktime{
 
+.contacts_header{
+border: 1px solid blue;
+display: inline-block;
+width: 49%;
+height: auto;
+vertical-align: top;
 }
-.contacts_email{
 
-}
-.contacts_phone{
-
-}
-.contacts_info_address{
-
-}
 .contact_info{
 
 }
@@ -259,13 +269,22 @@ width: 50%;
 
 
 .footer-nav{
-
+width: 80%;
 }
 .footer-nav_item{
+list-style-type: none;
+display: inline-flex;
+text-align: top;
+margin-left: 3%;
 
 }
+.footer-nav_link{
+color: #737274;
+}
 .footer-social{
-
+width: 20%;
+text-align: center;
+margin:2%;
 }
 .footer-social_link{
 
