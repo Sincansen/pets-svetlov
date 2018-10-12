@@ -10,11 +10,14 @@ background-color: #ede9e0;
 div{
 
 }
+
+header{
+}
 /*Заголовок 1 уровня*/
 h1{
 font-family: 'Fira Sans', medium;
 font-size: 48px;
-text-align: center;
+text-align: left;
 }
 
 /*Заголовок 2 уровня*/
@@ -52,26 +55,28 @@ text-decoration: none;
 
 /*Wrapper*/
 .wrapper{
+background: url(../images/dog.png) no-repeat;
+background-position-x: 5%;
 width: 1024px;
 border: 1px solid black;
-
 margin: 0 auto;
 }
 
 /*Контейнер*/
 .container{
-display: flex;
 width: 940px;
-margin: 0 auto;
-padding-left: 40px;
-padding-right: 40px;
-border: 1.5px solid yellow;
-box-sizing: border-box;
+margin: 20px auto;
+display: flex;
 }
+
 /
 /*Секции*/
 .section{
+text-align: center;
+}
 
+.headofname{
+text-align: center;
 }
 
 .logotype{
@@ -89,6 +94,7 @@ list-style-type: none;
 display: inline-flex;
 text-align: center;
 margin-left: 1%;
+list-style-type: none;
 color: #202020;
 }
 .phone{
@@ -99,16 +105,12 @@ text-align: center;
 
 
 .promo{
-
+text-align: center;
 }
 .promo_text{
-width: 100%;
-border: 1px solid blue;
 }
 .promo_quote{
-width: 100%;
 border: 1px solid black;
-display: block;
 }
 .promo_quote_text{
 
@@ -145,13 +147,17 @@ border-radius: 10px;
 
 
 .breeds{
-
+padding: 5%;
 }
 .breeds_list{
-
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
 }
 .breeds_list_info{
-width: 50%;
+justify-content:  center;
 height: auto;
 border: 1px solid black;
 padding: 1%;
@@ -173,7 +179,7 @@ text-align: center;
 }
 
 .reviews{
-
+padding: 5%;
 }
 .reviews_table{
 
@@ -200,10 +206,14 @@ font-size: 16px;
 
 
 .about_animals{
-
-
+flex-direction: row
+padding: 5%;
 }
-.ab_anim_table{
+.ab_anim_table_left{
+  width: 50%;
+  display: flex;
+}
+.ab_anim_table_right{
   width: 50%;
   display: flex;
 }
@@ -241,23 +251,20 @@ flex: 0 0 auto;
 
 
 .contacts{
-text-align: left;
 
 }
 .contacts_name_header{
-  text-align: left;
-  display: inline-block;
 }
 .contacts_information{
-width: 100%;
 }
 
+.contofname{
+text-align: left;
+padding: 0 4%;
+}
 .contacts_header{
 border: 1px solid blue;
-display: inline-block;
-width: 49%;
-height: auto;
-vertical-align: top;
+width: 100%;
 }
 
 .contact_info{
