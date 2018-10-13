@@ -277,12 +277,13 @@ flex: 0 0 auto;
 
 
 .contacts{
-
+padding-left: 2%;
 }
 .contacts_name_header{
 }
 .contacts_information{
   display: flex;
+  padding-left: 1%;
 }
 
 .contofname{
