@@ -52,6 +52,15 @@ font-size: 16px;
 letter-spacing: 50;
 line-height: 30px;
 text-decoration: none;
+color: #202020;
+}
+a:hover{
+font-family: 'Fira Sans', medium;
+font-size: 16px;
+letter-spacing: 50;
+line-height: 30px;
+text-decoration: none;
+color: #510fad;
 }
 
 /*Wrapper*/
@@ -121,6 +130,7 @@ text-align: center;
   width: 40%;
   margin-left: 40%;
   text-transform: uppercase;
+  color: #737274;
 }
 
 
@@ -173,6 +183,9 @@ margin-left: 8%;
 margin-top: 15%;
 color: #ffec00;
 }
+.about_farm_link:hover{
+color: #b8adc8;
+}
 
 
 .breeds{
@@ -205,10 +218,15 @@ height: auto;
 }
 .breeds_link{
 margin-left: 35%;
+color: #510fad;
+}
+.breeds_link:hover{
+color: #737274;
 }
 
 .reviews{
 padding-top: 5%;
+padding-bottom: 10%;
 }
 .reviews_table{
 
@@ -225,20 +243,26 @@ width: 50%
 .reviews_img{
 width: 50%;
 border-radius: 20px;
+box-shadow: -6px -6px 40px 0px rgba(0, 0, 0, .75);
 }
 .reviews_text-link{
 font-family: 'Roboto', Italic;
 font-size: 16px;
 margin-left: 51%;
 }
-.reviews_link{
 
+.reviews_link{
+color: #510fad;
+}
+.reviews_link:hover{
+color: #737274;
 }
 
 
 .about_animals{
 flex-direction: row
 padding: 5%;
+padding-bottom: 10%;
 }
 .ab_anim_table_left{
   width: 50%;
@@ -260,6 +284,10 @@ padding: 5%;
 .article_background{
 background-color: white;
 border-radius: 10px;
+box-shadow: 6px 6px 40px 0px rgba(0, 0, 0, .40);
+}
+.article_background:hover{
+box-shadow: -12px 12px 80px 0px rgba(0, 0, 0, .80);
 }
 .article_img{
 vertical-align: top;
@@ -270,6 +298,12 @@ border-radius: 10px 10px 0 0;
 }
 .ab_anim_link{
   padding-left: 5%;
+  color: #510fad;
+  font-weight: bold;
+}
+.ab_anim_link:hover{
+  color: #737274;
+
 }
 .social{
 flex: 0 0 auto;
@@ -281,6 +315,7 @@ flex: 0 0 auto;
 
 
 .contacts{
+ padding-bottom: 5%;
 }
 .contacts_name_header{
 text-align: center;
@@ -294,19 +329,21 @@ text-align: center;
   padding-left: 40px;
 }
 .contacts_col{
-  width: 75%;
-  margin-left: 5%;
+  width: 50%;
+  /*margin-left: 5%;*/
   display: flex;
   flex-wrap: wrap;
 }
 
 
 .contacts_header{
-
+width: 100%;
 }
 
 .contact_info{
-
+text-transform: uppercase;
+color: #737274;
+font-weight: bold;
 }
 .contacts_info_item{
 
