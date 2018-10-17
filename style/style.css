@@ -12,6 +12,7 @@ div{
 }
 
 header{
+
 }
 /*Заголовок 1 уровня*/
 h1{
@@ -66,6 +67,8 @@ margin: 0 auto;
 .container{
 width: 940px;
 display: flex;
+margin: 0 auto
+;
 }
 
 /
@@ -75,7 +78,7 @@ text-align: center;
 }
 
 .headofname{
-margin-left: 30%
+text-align: center;
 }
 
 .logotype{
@@ -117,6 +120,7 @@ text-align: center;
   text-align: left;
   width: 40%;
   margin-left: 40%;
+  text-transform: uppercase;
 }
 
 
@@ -156,7 +160,7 @@ padding-bottom: 40%;
 margin-left: 15%;
 }
 .about_farm_preferences{
-margin-left: 10%;
+margin-left: 15%;
 flex-direction: row;
 width: 50%;
 }
@@ -181,8 +185,7 @@ flex-wrap: wrap;
 .breeds_list_info{
 display: inline-block;
 margin-top: 3%;
-width: 48%;
-height: 25%
+width: 50%;
 }
 .breeds_list_image{
 border-radius:50%;
@@ -200,14 +203,13 @@ display: flex;
 .breeds_item-text{
 font-family: : 'Roboto', Regular;
 height: auto;
-width: 50%;
 }
 .breeds_link{
 margin-left: 35%;
 }
 
 .reviews{
-padding: 5%;
+padding-top: 5%;
 }
 .reviews_table{
 
@@ -248,7 +250,6 @@ padding: 5%;
   display: flex;
 }
 .about_text{
-padding-left: 13%;
 
 }
 
