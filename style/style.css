@@ -176,7 +176,6 @@ color: #ffec00;
 
 
 .breeds{
-margin-left: 10%;
 }
 .breeds_list{
 display: flex;
@@ -282,7 +281,6 @@ flex: 0 0 auto;
 
 
 .contacts{
-padding-left: 2%;
 }
 .contacts_name_header{
 text-align: center;
@@ -293,14 +291,13 @@ text-align: center;
 }
 
 .contofname{
-text-align: left;
-padding: 0 4%;
+  padding-left: 40px;
 }
 .contacts_col{
-width: 75%;
-margin-left: 5%;
-display: flex;
-flex-wrap: wrap;
+  width: 75%;
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
