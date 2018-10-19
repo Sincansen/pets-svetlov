@@ -90,6 +90,11 @@ text-align: center;
 text-align: center;
 }
 
+.arrow::after{
+background: url(../images/sprite.png);
+background-repeat: no-repeat;
+}
+
 .logotype{
 text-align: center;
 padding: 1%;
@@ -179,15 +184,29 @@ width: 50%;
 margin-bottom: 5%;
 color: white;
 }
+
 .about_farm_link{
+position: relative;
+display: inline-block;
 margin-left: 8%;
 margin-top: 15%;
 color: #ffec00;
 }
-.about_farm_link:hover{
-color: #b8adc8;
+.about_farm_link::after{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  background-position: -2px -369px;
+  left: 194px;
+  top: 9px;
 }
-
+.about_farm_link:hover{
+  color: #b8adc8;
+}
+.about_farm_link:hover::after{
+  background-position: -2px -385px;
+}
 
 .breeds{
 }
@@ -303,10 +322,7 @@ border-radius: 10px 10px 0 0;
   padding-left: 5%;
 }
 
-.arrow::after{
-background: url(../images/sprite.png);
-background-repeat: no-repeat;
-}
+
 
 .ab_anim_link{
   position: relative;
