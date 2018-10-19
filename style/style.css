@@ -112,6 +112,7 @@ color: #202020;
 width: 20%;
 padding-top: 3%;
 text-align: center;
+color: #510fad;
 }
 
 
@@ -238,7 +239,6 @@ width: 50%
 
 }
 .reviews_text_big{
-
 }
 .reviews_img{
 width: 50%;
@@ -263,25 +263,31 @@ color: #737274;
 flex-direction: row
 padding: 5%;
 padding-bottom: 10%;
+padding-top: 10%;
+background-image: url(../images/backgroun_pattern.png);
 }
-.ab_anim_table_left{
+.ab_anim_table_left {
   width: 50%;
   display: flex;
 }
-.ab_anim_table_right{
+.ab_anim_table_right {
   width: 50%;
   display: flex;
 }
-.about_text{
+.about_text {
 
 }
 
-.table_article{
+.about_social{
+
+}
+
+.table_article {
   width: 55%;
   flex-direction: row;
   margin: 2%;
 }
-.article_background{
+.article_background {
 background-color: white;
 border-radius: 10px;
 box-shadow: 6px 6px 40px 0px rgba(0, 0, 0, .40);
@@ -296,22 +302,58 @@ border-radius: 10px 10px 0 0;
 .article_text{
   padding-left: 5%;
 }
+
+.arrow::after{
+background: url(../images/sprite.png);
+background-repeat: no-repeat;
+}
+
 .ab_anim_link{
+  position: relative;
+  display: inline-block;
   padding-left: 5%;
   color: #510fad;
   font-weight: bold;
 }
+
+.ab_anim_link::after{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  background-position: -2px -336px;
+  left: 118px;
+  top: 9px;
+}
 .ab_anim_link:hover{
   color: #737274;
-
 }
+.ab_anim_link:hover::after{
+  background-position: -2px -352px;
+}
+
+/*
+
+.arrow-next-blue{
+background-position: -2px -336px; width: 20px; height: 14px;
+position: relative;
+top: -22px;
+left: 124px;
+}
+.arrow-next-blue:hover{
+background-position: -2px -352px; width: 20px; height: 14px;
+}
+
+*/
+
 .social{
 flex: 0 0 auto;
 }
-.social_link{
-
+/*
+.social{
+background-image: url(images/sprite.png);
 }
-
+*/
 
 
 .contacts{
@@ -370,4 +412,59 @@ margin:2%;
 }
 .footer-social_link{
 
+}
+.icon{
+display: inline-block;
+background-repeat: no-repeat;
+background: url(../images/sprite.png);
+}
+
+.about-vk{
+background-position: -2px -308px; width: 26px; height: 26px;
+}
+.about-vk:hover{
+background-position: -2px -280px; width: 26px; height: 26px;
+}
+.about-fb{
+background-position: -2px -196px; width: 26px; height: 26px;
+}
+.about-fb:hover{
+background-position: -2px -168px; width: 26px; height: 26px;
+}
+.about-inst{
+background-position: -2px -252px; width: 26px; height: 26px;
+}
+.about-inst:hover{
+background-position: -2px -224px; width: 26px; height: 26px;
+}
+
+.footer-vk{
+background-position: -2px -140px; width: 26px; height: 26px;
+}
+.footer-vk:hover{
+background-position: -2px -112px; width: 26px; height: 26px;
+}
+.footer-fb{
+background-position: -2px -28px; width: 26px; height: 26px;
+}
+.footer-fb:hover{
+background-position: -2px -0px; width: 26px; height: 26px;
+}
+.footer-inst{
+background-position: -2px -84px; width: 26px; height: 26px;
+}
+.footer-inst:hover{
+background-position: -2px -56px; width: 26px; height: 26px;
+}
+/*
+
+*/
+.arrow-next-yellow{
+background-position: -2px -368px; width: 20px; height: 14px;
+position: relative;
+top: -22px;
+left: 215px;
+}
+.arrow-next-yellow:hover{
+background-position: -2px -384px; width: 20px; height: 14px;
 }
