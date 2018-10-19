@@ -75,9 +75,7 @@ margin: 0 auto;
 /*Контейнер*/
 .container{
 width: 940px;
-display: flex;
-margin: 0 auto
-;
+margin: 0 auto;
 }
 
 /
@@ -100,6 +98,11 @@ text-align: center;
 padding: 1%;
 width: 20%
 }
+.top{
+  display: flex;
+  flex-direction: row;
+}
+
 .navigation{
 text-align: center;
 padding-top: 1%;
@@ -133,7 +136,7 @@ text-align: center;
 }
 .promo_quote{
   text-align: left;
-  width: 40%;
+  width: 100%;
   margin-left: 40%;
   text-transform: uppercase;
   color: #737274;
@@ -209,9 +212,15 @@ color: #ffec00;
 }
 
 .breeds{
+display: flex;
 }
 .breeds_list{
 display: flex;
+-webkit-flex-direction: row;
+-moz-flex-direction: row;
+-ms-flex-direction: row;
+-o-flex-direction: row;
+flex-direction: row;
 flex-wrap: wrap;
 }
 .breeds_list_info{
@@ -259,7 +268,12 @@ width: 50%
 }
 .reviews_text_big{
 }
+.reviews_table{
+display: flex;
+flex-direction: row;
+}
 .reviews_img{
+
 width: 50%;
 border-radius: 20px;
 box-shadow: -6px -6px 40px 0px rgba(0, 0, 0, .75);
@@ -322,7 +336,10 @@ border-radius: 10px 10px 0 0;
   padding-left: 5%;
 }
 
-
+.about_tables{
+  display: flex;
+  flex-direction: row;
+}
 
 .ab_anim_link{
   position: relative;
@@ -347,6 +364,11 @@ border-radius: 10px 10px 0 0;
 .ab_anim_link:hover::after{
   background-position: -2px -352px;
 }
+.ab_anim_table_right{
+  display: flex;
+  flex-direction: row;
+}
+
 
 /*
 
@@ -375,21 +397,21 @@ background-image: url(images/sprite.png);
 .contacts{
  padding-bottom: 5%;
 }
-.contacts_name_header{
-text-align: center;
+
+.contofname{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .contacts_information{
   display: flex;
-  padding-left: 1%;
-}
-
-.contofname{
-  padding-left: 40px;
+  flex-direction: row;
+  width: 100%;
 }
 .contacts_col{
   width: 50%;
-  /*margin-left: 5%;*/
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
@@ -422,9 +444,10 @@ margin-left: 3%;
 color: #737274;
 }
 .footer-social{
-width: 20%;
-text-align: center;
+width: auto;
 margin:2%;
+text-align: right;
+margin-left: 50%;
 }
 .footer-social_link{
 
