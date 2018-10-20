@@ -87,12 +87,12 @@ text-align: center;
 .headofname{
 text-align: center;
 }
-
+/*
 .arrow::after{
 background: url(../images/sprite.png);
 background-repeat: no-repeat;
 }
-
+*/
 .logotype{
 text-align: center;
 padding: 1%;
@@ -506,4 +506,8 @@ left: 215px;
 }
 .arrow-next-yellow:hover{
 background-position: -2px -384px; width: 20px; height: 14px;
+}
+.arrow::after{
+background: url(../images/sprite.png);
+background-repeat: no-repeat;
 }
