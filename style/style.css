@@ -14,6 +14,7 @@ div{
 header{
 
 }
+
 /*Заголовок 1 уровня*/
 h1{
 font-family: 'Fira Sans', medium;
@@ -87,11 +88,13 @@ text-align: center;
 .headofname{
 text-align: center;
 }
-/*
+
 .arrow::after{
 background: url(../images/sprite.png);
 background-repeat: no-repeat;
 }
+
+
 */
 .logotype{
 text-align: center;
@@ -157,7 +160,7 @@ color: white;
 }
 .about_farm_info_text{
 text-align: left;
-margin: 0 35% 0 30%;
+margin: 0 24% 0 38%;
 padding-bottom: 5%;
 color: #b8adc8;
 }
@@ -179,7 +182,7 @@ padding-bottom: 40%;
 margin-left: 15%;
 }
 .about_farm_preferences{
-margin-left: 15%;
+margin-left: 8%;
 flex-direction: row;
 width: 50%;
 }
@@ -246,11 +249,26 @@ font-family: : 'Roboto', Regular;
 height: auto;
 }
 .breeds_link{
-margin-left: 35%;
-color: #510fad;
+  position: relative;
+  display: inline-block;
+  padding-left: 150px;
+  color: #510fad;
+  font-weight: bold;
 }
 .breeds_link:hover{
 color: #737274;
+}
+.breeds_link::after{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  background-position: -2px -336px;
+  left: 310px;
+  top: 9px;
+}
+.breeds_link:hover::after{
+  background-position: -2px -352px;
 }
 
 .reviews{
@@ -369,29 +387,10 @@ border-radius: 10px 10px 0 0;
   flex-direction: row;
 }
 
-
-/*
-
-.arrow-next-blue{
-background-position: -2px -336px; width: 20px; height: 14px;
-position: relative;
-top: -22px;
-left: 124px;
-}
-.arrow-next-blue:hover{
-background-position: -2px -352px; width: 20px; height: 14px;
-}
-
-*/
-
 .social{
 flex: 0 0 auto;
 }
-/*
-.social{
-background-image: url(images/sprite.png);
-}
-*/
+
 
 
 .contacts{
@@ -494,20 +493,4 @@ background-position: -2px -84px; width: 26px; height: 26px;
 }
 .footer-inst:hover{
 background-position: -2px -56px; width: 26px; height: 26px;
-}
-/*
-
-*/
-.arrow-next-yellow{
-background-position: -2px -368px; width: 20px; height: 14px;
-position: relative;
-top: -22px;
-left: 215px;
-}
-.arrow-next-yellow:hover{
-background-position: -2px -384px; width: 20px; height: 14px;
-}
-.arrow::after{
-background: url(../images/sprite.png);
-background-repeat: no-repeat;
 }
